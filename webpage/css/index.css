@@ -5,7 +5,7 @@ html, body {
 
 body {
   /* CSS generated from https://uigradients.com */
-  background: #bdc3c7;  /* fallback for old browsers */
+  background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
@@ -15,6 +15,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container{
+  border: 1px solid rgba(0, 0, 0, 0.327);
+  border-radius: 5px;
+  padding: 70px;
+  margin: 100px auto;
+  background-color: #2c3e5039;
 }
 
 h1 {
@@ -30,6 +38,7 @@ button {
   outline: none;
   border: 1px solid darkred;
   cursor: pointer;
+  margin: 60px ;
 }
 
 .fun {
@@ -43,52 +52,3 @@ button {
   text-align: center;
 }
 
-/* @media (min-height: 500px) and (min-width: 700px) {
-  .message {
-    padding: 0;
-    width: 50%;
-    left: calc(50vw - 5rem);
-    top: calc(15vh - 5rem);
-  }
-
-  .message .text {
-    padding-right: 0rem;
-  }
-
-  .graphics {
-    display: block;
-    margin-bottom: 6rem;
-  }
-
-  .message .twitter-link img {
-    width: 70%;
-    height: 70%;
-  }
-
-  .page-content {
-    padding: 3rem 5rem;
-  }
-
-}
-
-@media (min-height: 500px) and (min-width: 1240px) {
-  .message {
-    left: calc(50vw - 10rem);
-    top: calc(25vh - 5rem);
-  }
-
-  h1 {
-    font-size: 5rem;
-  }
-
-  .message .twitter-link img {
-    width: 80%;
-    height: 80%;
-  }
-}
-
-@media (min-aspect-ratio: 11/5)  {
-  .graphics {
-    display: none;
-  } 
-}*/

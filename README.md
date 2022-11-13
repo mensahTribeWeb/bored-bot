@@ -44,3 +44,9 @@ Welcome to the mensahDomoah bored-bot static HTML website
 
 <!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
 
+Bob Zirroll 
+- https://scrimba.com/learn/frontend/then-and-asynchronous-javascript-co8e74a859ef2f74bac142601?a=1750.30.3.L3_1-3_49
+
+MDN
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
