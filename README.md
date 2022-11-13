@@ -46,6 +46,14 @@ the issue with the project was to implement APIs onto the DOM, with practice and
 
 <!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
 
+linkedIN
+- https://www.linkedin.com/in/nicholas-d-mensah/
+
+GITHUB
+-https://github.com/mensahTribeWeb/bored-bot
+
+
+
 ## Acknowledgements
 
 <!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
