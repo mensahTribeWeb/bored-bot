@@ -22,6 +22,11 @@ Welcome to the mensahDomoah bored-bot static HTML website
     3. List a few specific technical things that you learned or improved on.
     4. Share any other tips or guidance for others attempting this or something similar.
  -->
+  The bored bot was deployed through AWS, this project showcases fetching APIs through a simple static app. Utilizing, "Click" Event listener a variety of daily task will be displayed on the document Object.
+
+  Through this education based project from Scrimba I gained skills such as:
+  -viewing json from 
+
 
 ### Built With
 
@@ -49,4 +54,7 @@ Bob Zirroll
 
 MDN
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
+JSONLint
+-https://jsonlint.com/
 
