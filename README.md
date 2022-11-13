@@ -50,7 +50,7 @@ linkedIN
 - https://www.linkedin.com/in/nicholas-d-mensah/
 
 GITHUB
--https://github.com/mensahTribeWeb/bored-bot
+- https://github.com/mensahTribeWeb/bored-bot
 
 
 
