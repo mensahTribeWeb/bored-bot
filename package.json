@@ -15,8 +15,12 @@
   "bugs": {
     "url": "https://github.com/mensahTribeWeb/bored-bot/issues"
   },
-  "homepage": "https://github.com/mensahTribeWeb/bored-bot#index.html",
+  "homepage": "https://mensahtribeweb.github.io/bored-bot/webpage/index.html",
   "dependencies": {
+    "deploy-s3": "^0.1.1",
     "gh-pages": "^4.0.0"
+  },
+  "devDependencies": {
+    "deploy-to-github-pages": "^1.0.1"
   }
 }
