@@ -1,4 +1,4 @@
-Welcome to the mensahDomoah bored-bot static HTML website
+Welcome to the nokore.dev bored-bot static HTML website
 ==================================================
 
 # Bored-bot
