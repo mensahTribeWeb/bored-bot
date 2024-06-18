@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", function() {
     function getIdea() {
         // Simulate fetching data (can be replaced with actual logic)
         var ideas = [
-             "Go for a walk in the park",
-        "Read a book for an hour",
-        "Try a new recipe",
-        "Watch a classic movie",
-        "Practice meditation for 10 minutes",
-        "Do a random act of kindness",
-        "Write in a journal for 15 minutes",
-        "Learn a new word and its meaning",
-        "Do 20 push-ups",
-        "Call a friend and catch up"
+            "Go for a walk in the park",
+            "Read a book for an hour",
+            "Try a new recipe",
+            "Watch a classic movie",
+            "Practice meditation for 10 minutes",
+            "Do a random act of kindness",
+            "Write in a journal for 15 minutes",
+            "Learn a new word and its meaning",
+            "Do 20 push-ups",
+            "Call a friend and catch up"
         ];
 
         // Generate a random index for the ideas array
@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("title").textContent = "🦾 HappyBot🦿";
     }
 });
+
 
 
 
