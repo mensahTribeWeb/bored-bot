@@ -3,9 +3,14 @@ document.addEventListener("DOMContentLoaded", function() {
     var body = document.getElementsByTagName("body")[0];
     body.className = "heaven-" + idx;
 
-    // List of predefined activities
-    var activities = [
-        "Go for a walk in the park",
+    // Add event listener to the bored-bot button
+    document.getElementById("bored-bot").addEventListener("click", getIdea);
+
+    // Function to simulate fetching an idea (for demonstration purposes)
+    function getIdea() {
+        // Simulate fetching data (can be replaced with actual logic)
+        var ideas = [
+             "Go for a walk in the park",
         "Read a book for an hour",
         "Try a new recipe",
         "Watch a classic movie",
@@ -15,20 +20,19 @@ document.addEventListener("DOMContentLoaded", function() {
         "Learn a new word and its meaning",
         "Do 20 push-ups",
         "Call a friend and catch up"
-    ];
+        ];
 
-    // Event listener for the bored-bot button
-    document.getElementById("bored-bot").addEventListener("click", function() {
-        // Get a random activity from the predefined list
-        var randomIndex = Math.floor(Math.random() * activities.length);
-        var randomActivity = activities[randomIndex];
-        
-        // Update elements with the fetched data (simulated)
+        // Generate a random index for the ideas array
+        var randomIndex = Math.floor(Math.random() * ideas.length);
+
+        // Update elements with fetched data (random idea)
         document.body.classList.add("fun");
-        document.getElementById("idea").textContent = randomActivity;
+        document.getElementById("idea").textContent = ideas[randomIndex];
         document.getElementById("title").textContent = "🦾 HappyBot🦿";
-    });
+    }
 });
+
+
 
 // Api url is no longer availible
 // document.addEventListener("DOMContentLoaded", function() {
