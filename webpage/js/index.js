@@ -3,27 +3,32 @@ document.addEventListener("DOMContentLoaded", function() {
     var body = document.getElementsByTagName("body")[0];
     body.className = "heaven-" + idx;
 
-    // Add event listener to the bored-bot button
-    document.getElementById("bored-bot").addEventListener("click", getIdea);
+    // Event listener for the bored-bot button
+    document.getElementById("bored-bot").addEventListener("click", function() {
+        fetchActivity();
+    });
 
-    // Function to fetch an idea from the Bored API and update the page using JSONP
-    function getIdea() {
-        $.jsonp({
-            url: 'https://www.boredapi.com/api/activity?callback=?',
-            success: function(data) {
-                // Add 'fun' class to body
+    // Function to fetch activity from an alternative API
+    function fetchActivity() {
+        fetch("https://activity-api.herokuapp.com/api/activity")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Update elements with fetched data
                 document.body.classList.add("fun");
-                // Update the idea element with the fetched activity
-                document.getElementById("idea").textContent = data.activity;
-                // Update the title element
+                document.getElementById("idea").textContent = data.activity || "No activity found";
                 document.getElementById("title").textContent = "🦾 HappyBot🦿";
-            },
-            error: function(xOptions, textStatus) {
-                console.error('Error fetching idea:', textStatus);
-            }
-        });
+            })
+            .catch(error => {
+                console.error('Error fetching idea:', error);
+            });
     }
 });
+
 
 
 
