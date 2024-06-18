@@ -1,19 +1,45 @@
-//AWS provided function
-var idx = Math.floor((new Date().getHours()));
+
+var idx = Math.floor(new Date().getHours());
 var body = document.getElementsByTagName("body")[0];
 body.className = "heaven-" + idx;
 
-document.getElementById("bored-bot").addEventListener("click", getIdea)
+// Add event listener to the bored-bot button
+document.getElementById("bored-bot").addEventListener("click", getIdea);
 
+// Function to fetch an idea from the Bored API and update the page
 function getIdea() {
     fetch("https://www.boredapi.com/api/activity")
         .then(res => res.json())
         .then(data => {
-            document.body.classList.add("fun")
-            document.getElementById("idea").textContent = data.activity
-            document.getElementById("title").textContent = "🦾 HappyBot🦿"
+            // Add 'fun' class to body
+            document.body.classList.add("fun");
+            // Update the idea element with the fetched activity
+            document.getElementById("idea").textContent = data.activity;
+            // Update the title element
+            document.getElementById("title").textContent = "🦾 HappyBot🦿";
         })
+        .catch(error => {
+            console.error('Error fetching idea:', error);
+        });
 }
+
+
+// //AWS provided function
+// var idx = Math.floor((new Date().getHours()));
+// var body = document.getElementsByTagName("body")[0];
+// body.className = "heaven-" + idx;
+
+// document.getElementById("bored-bot").addEventListener("click", getIdea)
+
+// function getIdea() {
+//     fetch("https://www.boredapi.com/api/activity")
+//         .then(res => res.json())
+//         .then(data => {
+//             document.body.classList.add("fun")
+//             document.getElementById("idea").textContent = data.activity
+//             document.getElementById("title").textContent = "🦾 HappyBot🦿"
+//         })
+// }
 
 
 
