@@ -1,69 +1,57 @@
-Welcome to the nokore.dev bored-bot static HTML website
-==================================================
+# Welcome to the Nokore.dev Bored-bot Static HTML Website
 
-# Bored-bot
+![Bored-bot](https://github.com/mensahTribeWeb/bored-bot/assets/103342287/0a29b727-1a6d-448d-921a-5cb7927027f1)
+
 
 ## Table of Contents
 
-- [Welcome to the Nokore bored-bot static HTML website](#welcome-to-the-mensahdomoah-bored-bot-static-html-website)
-- [Bored-bot](#bored-bot)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-    - [Built With](#built-with)
-  - [Features](#features)
-  - [Contact](#contact)
-  - [Acknowledgements](#acknowledgements)
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
+The Bored-bot is a static HTML website deployed through AWS, designed to showcase fetching APIs and displaying daily tasks dynamically on the document object. This project serves primarily for educational purposes.
 
-  The bored bot was deployed through AWS, this project showcases fetching APIs through a simple static app. Utilizing, "Click" Event listener a variety of daily task will be displayed on the document Object. this project is primarily for educational purposes 
+Skills gained through this project include:
 
-  Through this education based project from Scrimba I gained skills such as:
-  -JSON
-  -CSS
-  -EventListeners
-  -fetch
-  -APIs
+- JSON
+- CSS
+- Event Listeners
+- Fetch API
+- AWS
 
-  🤓👾always get hands on experience frequently and consistently 
+Always strive for hands-on experience frequently and consistently. 🤓👾
 
-
-### Built With
+## Built With
 
 - HTML
 - CSS
 - JavaScript
 - APIs
-- JSON  
+- JSON
 - AWS
 
 ## Features
 
-<!-- TODO: List what specific 'user problems' that this application solves. -->
-the issue with the project was to implement APIs onto the DOM, with practice and utilization of some asynchronous JS. I fetch APIs and deployed them to the document object
+The project demonstrates the integration of APIs onto the DOM using asynchronous JavaScript, enhancing user interaction by displaying various daily tasks fetched dynamically.
+
 ## Contact
 
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+Connect with me:
 
-linkedIN
-- https://www.linkedin.com/in/nicholas-d-mensah/
-
-GITHUB
-- https://github.com/mensahTribeWeb/bored-bot
-
-
+- [LinkedIn](https://www.linkedin.com/in/nicholas-d-mensah/)
+- [GitHub](https://github.com/mensahTribeWeb/bored-bot)
 
 ## Acknowledgements
 
-<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
+Special thanks to:
 
-Bob Zirroll 
-- https://scrimba.com/learn/frontend/then-and-asynchronous-javascript-co8e74a859ef2f74bac142601?a=1750.30.3.L3_1-3_49
+- [Bob Zirroll](https://scrimba.com/learn/frontend/then-and-asynchronous-javascript-co8e74a859ef2f74bac142601?a=1750.30.3.L3_1-3_49)
+- [MDN Web Docs - Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [JSONLint](https://jsonlint.com/)
 
-MDN
-- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-
-JSONLint
--https://jsonlint.com/
+Designed and developed with ♥ in Chicago.
 
