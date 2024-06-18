@@ -5,7 +5,7 @@ Welcome to the nokore.dev bored-bot static HTML website
 
 ## Table of Contents
 
-- [Welcome to the mensahDomoah bored-bot static HTML website](#welcome-to-the-mensahdomoah-bored-bot-static-html-website)
+- [Welcome to the Nokore bored-bot static HTML website](#welcome-to-the-mensahdomoah-bored-bot-static-html-website)
 - [Bored-bot](#bored-bot)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
