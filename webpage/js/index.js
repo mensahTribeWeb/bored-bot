@@ -3,31 +3,64 @@ document.addEventListener("DOMContentLoaded", function() {
     var body = document.getElementsByTagName("body")[0];
     body.className = "heaven-" + idx;
 
+    // List of predefined activities
+    var activities = [
+        "Go for a walk in the park",
+        "Read a book for an hour",
+        "Try a new recipe",
+        "Watch a classic movie",
+        "Practice meditation for 10 minutes",
+        "Do a random act of kindness",
+        "Write in a journal for 15 minutes",
+        "Learn a new word and its meaning",
+        "Do 20 push-ups",
+        "Call a friend and catch up"
+    ];
+
     // Event listener for the bored-bot button
     document.getElementById("bored-bot").addEventListener("click", function() {
-        fetchActivity();
+        // Get a random activity from the predefined list
+        var randomIndex = Math.floor(Math.random() * activities.length);
+        var randomActivity = activities[randomIndex];
+        
+        // Update elements with the fetched data (simulated)
+        document.body.classList.add("fun");
+        document.getElementById("idea").textContent = randomActivity;
+        document.getElementById("title").textContent = "🦾 HappyBot🦿";
     });
-
-    // Function to fetch activity from an alternative API
-    function fetchActivity() {
-        fetch("https://activity-api.herokuapp.com/api/activity")
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Update elements with fetched data
-                document.body.classList.add("fun");
-                document.getElementById("idea").textContent = data.activity || "No activity found";
-                document.getElementById("title").textContent = "🦾 HappyBot🦿";
-            })
-            .catch(error => {
-                console.error('Error fetching idea:', error);
-            });
-    }
 });
+
+// Api url is no longer availible
+// document.addEventListener("DOMContentLoaded", function() {
+//     var idx = Math.floor(new Date().getHours());
+//     var body = document.getElementsByTagName("body")[0];
+//     body.className = "heaven-" + idx;
+
+//     // Event listener for the bored-bot button
+//     document.getElementById("bored-bot").addEventListener("click", function() {
+//         fetchActivity();
+//     });
+
+//     // Function to fetch activity from an alternative API
+//     function fetchActivity() {
+//         fetch("https://activity-api.herokuapp.com/api/activity")
+//             .then(response => {
+//                 if (!response.ok) {
+//                     throw new Error('Network response was not ok');
+//                 }
+//                 return response.json();
+//             })
+//             .then(data => {
+//                 // Update elements with fetched data
+//                 document.body.classList.add("fun");
+//                 document.getElementById("idea").textContent = data.activity || "No activity found";
+//                 document.getElementById("title").textContent = "🦾 HappyBot🦿";
+//             })
+//             .catch(error => {
+//                 console.error('Error fetching idea:', error);
+//             });
+//     }
+// });
 
 
 
