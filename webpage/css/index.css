@@ -1,10 +1,11 @@
+/* General Styles */
 html, body {
   margin: 0;
   padding: 10px;
 }
 
 body {
-  /* CSS generated from https://uigradients.com */
+  /* Background Gradient */
   background: #2c3e50;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -17,16 +18,14 @@ body {
   align-items: center;
   min-width: 100vw;
   min-height: 90vh;
-
 }
 
-.container{
+.container {
   border: 1px solid rgba(0, 0, 0, 0.327);
   border-radius: 5px;
   padding: 70px;
   margin: 50px auto;
-  background-color: #2c3e5039;
-
+  background-color: rgba(44, 62, 80, 0.227); /* more readable RGBA format */
 }
 
 h1 {
@@ -42,11 +41,11 @@ button {
   outline: none;
   border: 1px solid darkred;
   cursor: pointer;
-  margin: 60px ;
+  margin: 60px;
 }
 
 .fun {
-  /* CSS generated from https://uigradients.com */
+  /* Background Gradient */
   background: #fc4a1a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -55,9 +54,9 @@ button {
 #idea {
   text-align: center;
 }
+
 footer {
-  position:fixed;
+  position: fixed;
   bottom: 0;
   text-align: center;
 }
-
