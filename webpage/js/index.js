@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+
 // Api url is no longer availible
 // document.addEventListener("DOMContentLoaded", function() {
 //     var idx = Math.floor(new Date().getHours());
