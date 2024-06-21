@@ -2,6 +2,8 @@
 
 ![Bored-bot](https://github.com/mensahTribeWeb/bored-bot/assets/103342287/0a29b727-1a6d-448d-921a-5cb7927027f1)
 
+* a workaround has been implemented to allow the app to function until I have time to investigate the problem with the API 
+
 
 ## Table of Contents
 
